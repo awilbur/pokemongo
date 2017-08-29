@@ -1,10 +1,9 @@
 'use strict';
 
-const CONSTANTS = require('./../constants');
-const levelToCPM = require('../../data/levelToCPM.json');
-const pokemon = require('../../data/pokemon.json');
-const moves = require('../../data/moves.json');
-const types = require('../../data/types.json');
+const levelToCPM = require('../data/levelToCPM.json');
+const pokemon = require('../data/pokemon.json');
+const moves = require('../data/moves.json');
+const types = require('../data/types.json');
 
 function getPower(move) {
     return moves[move]["power"];

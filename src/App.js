@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import pokemon from './data/pokemon.json'
 
 class App extends Component {
   render() {
@@ -11,7 +12,11 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          Weeeeeeee don't refresh
+          {
+            Object.keys(pokemon).forEach( function (key) {
+              key;
+            }
+          }
         </p>
       </div>
     );
